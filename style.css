@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #calculator {
+    max-width: 200px;
+    margin: 10px auto;
+    text-align: center;
+  }
+  
+  #display {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 30px;
+    font-size: 30px;
+  }
+  
+  #buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    background-color: blue;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(78, 193, 197);
+  }
